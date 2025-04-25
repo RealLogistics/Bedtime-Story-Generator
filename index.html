@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DreamTales: Bedtime Story Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>DreamTales</h1>
+    <p>Create a magical bedtime story!</p>
+
+    <form id="storyForm">
+      <label for="childName">Child's Name:</label>
+      <input type="text" id="childName" required>
+      
+      <label for="favoriteAnimal">Favorite Animal:</label>
+      <input type="text" id="favoriteAnimal" required>
+      
+      <label for="theme">Story Theme or Message:</label>
+      <input type="text" id="theme" required>
+      
+      <button type="submit">Generate Story</button>
+    </form>
+
+    <div id="storybook">
+      <div id="storyPage" class="story-page"></div>
+      <button id="prevPage" onclick="prevPage()">← Back</button>
+      <button id="nextPage" onclick="nextPage()">Next →</button>
+      <button onclick="downloadPDF()">Download Story as PDF</button>
+    </div>
+
+    <div class="stars">
+      <div class="star" style="top: 50px; left: 100px;"></div>
+      <div class="star" style="top: 150px; left: 300px;"></div>
+      <div class="star" style="top: 200px; left: 50px;"></div>
+      <div class="star" style="top: 80px; left: 400px;"></div>
+      <div class="star" style="top: 220px; left: 250px;"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
