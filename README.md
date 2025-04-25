@@ -16,12 +16,6 @@ Simply enter a child's name, their favorite animal, and a story theme, and Dream
 
 ---
 
-## Live Demo
-
-*(Link to your hosted site here once you publish! Example: https://yourusername.github.io/bedtime-story-generator/)*
-
----
-
 ## How to Use
 
 1. Enter a child's name, favorite animal, and a story theme or message.
