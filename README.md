@@ -25,34 +25,6 @@ Simply enter a child's name, their favorite animal, and a story theme, and Dream
 
 ---
 
-## How to Host Your Own Version
-
-### GitHub Pages
-- Upload the project files to a public GitHub repository.
-- Go to Settings → Pages → Select the main branch → Save.
-- Your live site will be ready in a few minutes!
-
-### Netlify
-- Drag and drop the project files into Netlify.
-- Get a free URL instantly.
-
----
-
-## Files
-
-- `index.html` – Main HTML structure
-- `styles.css` – Dreamy, whimsical styling
-- `script.js` – Story generation logic and page interactions
-
----
-
-## Credits
-
-- Developed by [Your Name Here].
-- Free to use for personal and educational projects!
-
----
-
 ## License
 
 This project is open-source under the [MIT License](LICENSE).
