@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to bottom, #dceeff, #ffffff);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fdf6e3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+input, button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #a3d9ff;
+  cursor: pointer;
+}
+
+#storybook {
+  background: #fff8f0;
+  padding: 20px;
+  border-radius: 15px;
+  min-height: 200px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.story-page {
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+#prevPage, #nextPage {
+  margin: 10px;
+  padding: 10px;
+  background: #ffe0b3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-20px); opacity: 0.6; }
+}
+
+.star {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fff8dc;
+  border-radius: 50%;
+  animation: float 4s ease-in-out infinite;
+}
+
+.star:nth-child(odd) { animation-duration: 6s; }
+.star:nth-child(even) { animation-duration: 8s; }
